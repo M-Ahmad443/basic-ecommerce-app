@@ -1,0 +1,62 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    position:sticky;
+    height: 3rem;
+    width: 100%;
+    background-color: black;
+    
+
+}
+.nav{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-left: 3rem;
+
+}
+.nav>ul>li{
+   margin-left: 2rem;
+}
+.nav-item{
+    display: flex;
+}
+.nav>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav>.logo>a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.nav>ul>li{
+    list-style: none;
+}
+
+
+
+
+/* register */
+
+
+.register{
+    margin-top: 4rem;
+
+    font-size: 25px;
+}
+.register>h1{
+    width: 100%;
+
+
+}
+.input-register{
+    padding: 8px 32px;
+    margin-bottom: 20px;
+
+}
